@@ -15,12 +15,18 @@ public class Car {
     String colour;
     
 <<<<<<< HEAD
+
     public void drive(double direction) {
         System.out.println(String.format("The %s %s is driving at %f degrees" ,colour, make, direction));
-=======
+    }
+
     public void drive(String direction) {
         System.out.println("the " + colour + " " + make + " is driving " + direction);
->>>>>>> String-frive
+
+=======
+    public void drive(double direction) {
+        System.out.println(String.format("The %s %s is driving at %f degrees" ,colour, make, direction));
+>>>>>>> parent of ae6b3fc (merges)
     }
     
 }
