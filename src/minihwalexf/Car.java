@@ -14,4 +14,8 @@ public class Car {
     int numWheel;
     String colour;
     
+    public void drive(String direction) {
+        System.out.println("the " + colour + " " + make " is driving " + direction);
+    }
+    
 }
